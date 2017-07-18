@@ -1,3 +1,43 @@
 body {
-  background-color: red;
+  background-color: green;
+  margin-left:200px;
+  background-image: url("computersimulation4.jpg");
+  color:white;
+
+}
+
+#red {
+  color: red;
+}
+
+img {
+   padding:1px;
+   border:1px solid #021a40;
+   background-color:black;
+
+}
+h1 {
+  padding-left: 100px;
+}
+
+table {
+    text-align: center;
+  }
+#explore {
+ font-family:cursive;
+
+}
+
+.whatif {
+  text-decoration: underline;
+}
+
+a:visited {
+  color:hotpink;
+}
+
+@media only screen and (max-width: 500px){
+  body {
+    font-size: small;
+  }
 }
